@@ -1,0 +1,81 @@
+body
+{
+    background-color: #f3f4f7;
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+}
+
+nav
+{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(35, 37, 37,0.8);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    position: fixed;
+}
+nav span
+{
+    padding: 0px 0px 0px 650px;
+    
+}
+nav ul
+{
+    display: flex;
+}
+nav li
+{
+    padding: 5px 0px 0px 15px;
+    display: flex;
+    list-style: none;
+}
+
+.header
+{
+    background-image: url(/Actividad-2/img/Receta-De-Cocina-Banderillas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: auto;
+    height: 400px;
+    display: flex;
+}
+.header h1
+{
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    font-size: 50px;
+    color: #000000;
+    padding: 135px 10px 10px 100px;
+    position: static;
+}
+
+.article
+{
+    width: 1100px;
+    padding: 0px 100px 0px 100px;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 17px;
+    text-align: justify;
+}
+.titulo
+{
+    width: 450px;
+    padding-bottom: 5px;
+    font-family: 'Alegreya', serif;
+    font-size: 21px;
+    border-bottom: 3px solid #800e0e;
+}
+
+.conteiner-article
+{
+    display: flex;
+}
+
+.aside
+{
+    padding: 100px 0px 0px 0px;
+}
